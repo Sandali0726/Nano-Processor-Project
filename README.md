@@ -66,10 +66,10 @@ This project involves the design and implementation of a 4-bit NanoProcessor cap
 ---
 
 ## Team Contributions
-- **220278E - Jayathunga W.M.J.S.**: Add/Subtract Unit, PC Design.
-- **220267U - Jayasooriya J.A.N.S.**: Multiplexers, Register Bank.
-- **220282K - Jayawardhana W.S.S.**: Instruction Decoder, ROM.
-- **220585R - Sathsara H.M.W.C.**: FPGA Simulation, Resource Optimization.
+- **Jayathunga W.M.J.S.**
+- **Jayasooriya J.A.N.S.**
+- **Jayawardhana W.S.S.**
+- **Sathsara H.M.W.C.**
 
 ---
 
