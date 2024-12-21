@@ -65,18 +65,6 @@ This project involves the design and implementation of a 4-bit NanoProcessor cap
 
 ---
 
-## Assembly Program
-### Example Instructions
-| Line | Assembly Code          | Description                                   |
-|------|------------------------|-----------------------------------------------|
-| 1    | `MOV 1 TO REG 7`       | Move immediate value 1 to register 7.         |
-| 2    | `MOV 2 TO REG 1`       | Move immediate value 2 to register 1.         |
-| 3    | `ADD REG 7 AND REG 1`  | Add values in register 7 and register 1.      |
-| 4    | `NEGATE REG 7`         | Compute 2's complement of value in register 7.|
-| 5    | `JUMP TO LINE 4`       | Conditional jump based on register value.     |
-
----
-
 ## Team Contributions
 - **220278E - Jayathunga W.M.J.S.**: Add/Subtract Unit, PC Design.
 - **220267U - Jayasooriya J.A.N.S.**: Multiplexers, Register Bank.
@@ -105,6 +93,4 @@ This project involves the design and implementation of a 4-bit NanoProcessor cap
 
 ---
 
-## Contact
-For any queries, please contact the team members via institutional email.
 
