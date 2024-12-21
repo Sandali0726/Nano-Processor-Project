@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun May  5 07:34:48 2024
+# Process ID: 64456
+# Current directory: E:/Submission Projects/Normal Nano processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent50876 E:\Submission Projects\Normal Nano processor\MicroP_test.xpr
+# Log file: E:/Submission Projects/Normal Nano processor/vivado.log
+# Journal file: E:/Submission Projects/Normal Nano processor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/Submission Projects/Normal Nano processor/MicroP_test.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source M_P_TB.tcl
+current_wave_config {Untitled 1}
+add_wave {{/M_P_TB/UUT/ROM_1}} 
+remove_forces { {/M_P_TB/Sev_7Seg} }
+remove_forces { {/M_P_TB/Op_Led} }
+remove_forces { {/M_P_TB/Zero} }
+remove_forces { {/M_P_TB/Over_Flow} }
+remove_forces { {/M_P_TB/Res} }
+save_wave_config {E:/Submission Projects/Normal Nano processor/M_P_TB_behav.wcfg}
+add_files -fileset sim_1 -norecurse {{E:/Submission Projects/Normal Nano processor/M_P_TB_behav.wcfg}}
+set_property xsim.view {{E:/Submission Projects/Normal Nano processor/M_P_TB_behav.wcfg}} [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config {E:/Submission Projects/Normal Nano processor/M_P_TB_behav.wcfg}
+source M_P_TB.tcl
+export_ip_user_files -of_objects  [get_files {{E:/Submission Projects/Normal Nano processor/M_P_TB_behav.wcfg}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{E:/Submission Projects/Normal Nano processor/M_P_TB_behav.wcfg}}
+save_wave_config {E:/Submission Projects/Normal Nano processor/M_P_TB_behav.wcfg}
+close_sim
+launch_simulation
+source M_P_TB.tcl
+close_sim

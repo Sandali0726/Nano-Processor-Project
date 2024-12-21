@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun May  5 07:40:26 2024
+# Process ID: 58496
+# Current directory: E:/Submission Projects/Upgraded Nano processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14540 E:\Submission Projects\Upgraded Nano processor\New_nanoprocessor_test.xpr
+# Log file: E:/Submission Projects/Upgraded Nano processor/vivado.log
+# Journal file: E:/Submission Projects/Upgraded Nano processor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/Submission Projects/Upgraded Nano processor/New_nanoprocessor_test.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source M_P_TB.tcl
+close_sim
+launch_simulation
+source M_P_TB.tcl
+current_wave_config {Untitled 2*}
+add_wave {{/M_P_TB/UUT/ROM_1}} 
+save_wave_config {E:/Submission Projects/Upgraded Nano processor/M_P_TB_behav.wcfg}
+add_files -fileset sim_1 -norecurse {{E:/Submission Projects/Upgraded Nano processor/M_P_TB_behav.wcfg}}
+set_property xsim.view {{E:/Submission Projects/Upgraded Nano processor/M_P_TB_behav.wcfg} {E:/Submission Projects/Upgraded Nano processor/M_P_TB_behav.wcfg}} [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config {E:/Submission Projects/Upgraded Nano processor/M_P_TB_behav.wcfg}
+source M_P_TB.tcl
+close_sim
+launch_simulation
+open_wave_config {E:/Submission Projects/Upgraded Nano processor/M_P_TB_behav.wcfg}
+source M_P_TB.tcl
+export_ip_user_files -of_objects  [get_files {{E:/Submission Projects/Upgraded Nano processor/M_P_TB_behav.wcfg}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{E:/Submission Projects/Upgraded Nano processor/M_P_TB_behav.wcfg}}
+close_sim
+launch_simulation
+source M_P_TB.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run impl_1
+close_sim

@@ -1,0 +1,27 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../Desktop/vhdl files/AddSub.vhd" \
+"../../../../../Desktop/vhdl files/Adder_3_bit.vhd" \
+"../../../../../Desktop/vhdl files/D_FF.vhd" \
+"../../../../../Desktop/vhdl files/Decoder_2_to_4.vhd" \
+"../../../../../Desktop/vhdl files/Decoder_3_to_8.vhd" \
+"../../../../../Desktop/vhdl files/FA.vhd" \
+"../../../../../Desktop/vhdl files/HA.vhd" \
+"../../../../../Desktop/vhdl files/INS_DEC.vhd" \
+"../../../../../Desktop/vhdl files/LUT_16_7.vhd" \
+"../../../../../Desktop/vhdl files/MUX_2_1.vhd" \
+"../../../../../Desktop/vhdl files/MUX_2_WAY_3_bit.vhd" \
+"../../../../../Desktop/vhdl files/MUX_2_WAY_4_BIT.vhd" \
+"../../../../../Desktop/vhdl files/Mux_8_to_1.vhd" \
+"../../../../../Desktop/vhdl files/Mux_8_way_4.vhd" \
+"../../../../../Desktop/vhdl files/PC.vhd" \
+"../../../../../Desktop/vhdl files/REGISTER_BANK.vhd" \
+"../../../../../Desktop/vhdl files/ROM12.vhd" \
+"../../../../../Desktop/vhdl files/Reg_D_FF.vhd" \
+"../../../../../Desktop/vhdl files/Seven_Seg.vhd" \
+"../../../../../Desktop/vhdl files/Slow_Clk.vhd" \
+"../../../../../Desktop/vhdl files/comparator.vhd" \
+"../../../../../Desktop/vhdl files/MICRO_PROCESSOR.vhd" \
+
+# Do not sort compile order
+nosort

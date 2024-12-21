@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1714845496">
+  <File Type="ROUTE-PWR" Name="M_P_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="M_P.tcl"/>
+  <File Type="PWROPT-DCP" Name="M_P_pwropt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="M_P_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="M_P_reports.tcl"/>
+  <File Type="BG-DRC" Name="M_P.drc"/>
+  <File Type="OPT-HWDEF" Name="M_P.hwdef"/>
+  <File Type="OPT-DCP" Name="M_P_opt.dcp"/>
+  <File Type="OPT-DRC" Name="M_P_drc_opted.rpt"/>
+  <File Type="PLACE-DCP" Name="M_P_placed.dcp"/>
+  <File Type="PLACE-IO" Name="M_P_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="M_P_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="M_P_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="M_P_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="M_P_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="M_P_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="M_P_physopt.dcp"/>
+  <File Type="BG-BIT" Name="M_P.bit"/>
+  <File Type="ROUTE-ERROR-DCP" Name="M_P_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="M_P_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="M_P_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="M_P_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="M_P_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="M_P_drc_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="M_P.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="M_P_methodology_drc_routed.rpt"/>
+  <File Type="BG-BGN" Name="M_P.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="M_P_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-RBT" Name="M_P.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="M_P_methodology_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="M_P.bin"/>
+  <File Type="ROUTE-PWR-RPX" Name="M_P_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="M_P_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="M_P_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="M_P_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="M_P_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="M_P_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="M_P_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="M_P.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="M_P_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="M_P_postroute_physopt_bb.dcp"/>
+  <File Type="BITSTR-NKY" Name="M_P.nky"/>
+  <File Type="BITSTR-BMM" Name="M_P_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="M_P.mmi"/>
+  <File Type="BITSTR-LTX" Name="M_P.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="M_P.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/AddSub.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/New folder/AddSub.vhd"/>
+        <Attr Name="ImportTime" Val="1713903752"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/Adder_3_bit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/New folder/Adder_3_bit.vhd"/>
+        <Attr Name="ImportTime" Val="1713328618"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/D_FF.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/New folder/D_FF.vhd"/>
+        <Attr Name="ImportTime" Val="1713251389"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/Decoder_2_to_4.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/New folder/Decoder_2_to_4.vhd"/>
+        <Attr Name="ImportTime" Val="1713768557"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/Decoder_3_to_8.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/New folder/Decoder_3_to_8.vhd"/>
+        <Attr Name="ImportTime" Val="1708427717"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/FA.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/New folder/FA.vhd"/>
+        <Attr Name="ImportTime" Val="1707832479"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/HA.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/New folder/HA.vhd"/>
+        <Attr Name="ImportTime" Val="1707827425"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/Inst_Decoder.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/New folder/Inst_Decoder.vhd"/>
+        <Attr Name="ImportTime" Val="1713854393"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/LUT_16_7.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/New folder/LUT_16_7.vhd"/>
+        <Attr Name="ImportTime" Val="1713284163"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/MUX_2_1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/New folder/MUX_2_1.vhd"/>
+        <Attr Name="ImportTime" Val="1712223893"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/MUX_2_WAY_3_bit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/New folder/MUX_2_WAY_3_bit.vhd"/>
+        <Attr Name="ImportTime" Val="1713248234"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/MUX_2_WAY_4_BIT.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/New folder/MUX_2_WAY_4_BIT.vhd"/>
+        <Attr Name="ImportTime" Val="1712223894"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/Mux_8_to_1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/New folder/Mux_8_to_1.vhd"/>
+        <Attr Name="ImportTime" Val="1713283574"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/Mux_8_way_4.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/New folder/Mux_8_way_4.vhd"/>
+        <Attr Name="ImportTime" Val="1713294499"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/PC.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/New folder/PC.vhd"/>
+        <Attr Name="ImportTime" Val="1713328491"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/REGISTER_BANK.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/New folder/REGISTER_BANK.vhd"/>
+        <Attr Name="ImportTime" Val="1713328361"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/ROM.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/New folder/ROM.vhd"/>
+        <Attr Name="ImportTime" Val="1713967326"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/Reg_D_FF.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/New folder/Reg_D_FF.vhd"/>
+        <Attr Name="ImportTime" Val="1712490961"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/Seven_Seg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/New folder/Seven_Seg.vhd"/>
+        <Attr Name="ImportTime" Val="1713867633"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/Slow_Clk.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/New folder/Slow_Clk.vhd"/>
+        <Attr Name="ImportTime" Val="1713640091"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/M_P.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/New folder/M_P.vhd"/>
+        <Attr Name="ImportTime" Val="1713966356"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="M_P"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/new/NP_CONSTRAIN.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Acer/micro_processer/micro_processer.srcs/constrs_1/new/NP_CONSTRAIN.xdc"/>
+        <Attr Name="ImportTime" Val="1714845445"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

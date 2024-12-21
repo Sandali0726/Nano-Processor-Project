@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun May  5 12:00:17 2024
+# Process ID: 86140
+# Current directory: E:/Submission Projects/Upgraded Nano processor/New_nanoprocessor_test.runs/synth_1
+# Command line: vivado.exe -log MICRO_PROCESSOR.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MICRO_PROCESSOR.tcl
+# Log file: E:/Submission Projects/Upgraded Nano processor/New_nanoprocessor_test.runs/synth_1/MICRO_PROCESSOR.vds
+# Journal file: E:/Submission Projects/Upgraded Nano processor/New_nanoprocessor_test.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source MICRO_PROCESSOR.tcl -notrace

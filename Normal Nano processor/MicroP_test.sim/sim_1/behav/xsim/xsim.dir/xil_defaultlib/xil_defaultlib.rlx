@@ -1,0 +1,28 @@
+0.6
+2018.1
+Apr  4 2018
+19:30:32
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sim_1/imports/New folder/AddSub_TB.vhd,1714842807,vhdl,,,,addsub_tb,,,,,,,,
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sim_1/imports/New folder/MUX8_WAY_4-SIM.vhd,1712074691,vhdl,,,,mux8_way_4_sim,,,,,,,,
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sim_1/imports/New folder/M_P_TB.vhd,1714843024,vhdl,,,,m_p_tb,,,,,,,,
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sources_1/imports/New folder/AddSub.vhd,1714843024,vhdl,,,,addsub,,,,,,,,
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sources_1/imports/New folder/Adder_3_bit.vhd,1714843024,vhdl,,,,adder_3_bit,,,,,,,,
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sources_1/imports/New folder/D_FF.vhd,1714843024,vhdl,,,,d_ff,,,,,,,,
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sources_1/imports/New folder/Decoder_2_to_4.vhd,1714843024,vhdl,,,,decoder_2_to_4,,,,,,,,
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sources_1/imports/New folder/Decoder_3_to_8.vhd,1714843024,vhdl,,,,decoder_3_to_8,,,,,,,,
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sources_1/imports/New folder/FA.vhd,1714843024,vhdl,,,,fa,,,,,,,,
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sources_1/imports/New folder/HA.vhd,1714843024,vhdl,,,,ha,,,,,,,,
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sources_1/imports/New folder/Inst_Decoder.vhd,1714843024,vhdl,,,,inst_decoder,,,,,,,,
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sources_1/imports/New folder/LUT_16_7.vhd,1714843024,vhdl,,,,lut_16_7,,,,,,,,
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sources_1/imports/New folder/MUX_2_1.vhd,1714843024,vhdl,,,,mux_2_1,,,,,,,,
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sources_1/imports/New folder/MUX_2_WAY_3_bit.vhd,1714843024,vhdl,,,,mux_2_way_3_bit,,,,,,,,
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sources_1/imports/New folder/MUX_2_WAY_4_BIT.vhd,1714843024,vhdl,,,,mux_2_way_4_bit,,,,,,,,
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sources_1/imports/New folder/M_P.vhd,1714843024,vhdl,,,,m_p,,,,,,,,
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sources_1/imports/New folder/Mux_8_to_1.vhd,1714843024,vhdl,,,,mux_8_to_1,,,,,,,,
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sources_1/imports/New folder/Mux_8_way_4.vhd,1714843024,vhdl,,,,mux_8_way_4,,,,,,,,
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sources_1/imports/New folder/PC.vhd,1714843024,vhdl,,,,pc,,,,,,,,
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sources_1/imports/New folder/REGISTER_BANK.vhd,1714843024,vhdl,,,,register_bank,,,,,,,,
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sources_1/imports/New folder/ROM.vhd,1714843024,vhdl,,,,rom,,,,,,,,
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sources_1/imports/New folder/Reg_D_FF.vhd,1714843024,vhdl,,,,reg_d_ff,,,,,,,,
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sources_1/imports/New folder/Seven_Seg.vhd,1714843024,vhdl,,,,seven_seg,,,,,,,,
+E:/Submission Projects/Normal Nano processor/MicroP_test.srcs/sources_1/imports/New folder/Slow_Clk.vhd,1714843024,vhdl,,,,slow_clk,,,,,,,,
